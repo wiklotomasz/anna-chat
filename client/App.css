@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    font-family: 'The Girl Next Door', cursive;
+
+}
+
+.AppHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #2196f3;
+}
+
+.AppTitle {
+    display: flex;
+    width: 25vw;
+    border-right: 1px solid #2196f3;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2196f3;
+}
+
+.AppRoom {
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.AppBody {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.MessageWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    flex: 1;
+}
